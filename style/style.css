@@ -1,1 +1,5 @@
-/*# sourceMappingURL=style.css.map */
+.logo {
+  justify-content: center;
+  display: flex;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
