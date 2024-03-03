@@ -1,0 +1,14 @@
+{
+  "name": "projet-4-oh-my-food",
+  "version": "1.0.0",
+  "description": "Projet restaurant",
+  "main": "index.js",
+  "scripts": {
+    "sass":"npx sass --watch ./style/style.scss:./style/style.css"
+  },
+  "author": "Sauane",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}
