@@ -2,4 +2,22 @@
   justify-content: center;
   display: flex;
   background-color: red;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.couleur {
+  color: aqua;
+}
+
+.font {
+  font-size: large;
+}
+
+.mot {
+  color: azure;
+}
+
+.fonction {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
