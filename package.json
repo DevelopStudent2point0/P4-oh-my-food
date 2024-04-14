@@ -4,7 +4,7 @@
   "description": "Projet restaurant",
   "main": "index.js",
   "scripts": {
-    "sass":"npx sass --watch ./style/style.scss:./style/style.css"
+    "sass":"npx sass --watch ./sass/style.scss:./assets/css/style.css"
   },
   "author": "Sauane",
   "license": "ISC",
