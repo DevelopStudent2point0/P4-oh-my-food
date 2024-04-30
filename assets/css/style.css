@@ -622,6 +622,7 @@ footer .handshake {
 footer .footer__logo {
   width: 139px;
   height: 27px;
+  filter: brightness(0) invert(1);
 }
 
 /*** Media Queries***/
