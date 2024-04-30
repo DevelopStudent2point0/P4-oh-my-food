@@ -666,6 +666,22 @@ footer .footer__logo {
   .carte__4 {
     margin-top: 0;
   }
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .footer__ensemble {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__icon {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__lois {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
