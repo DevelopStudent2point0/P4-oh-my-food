@@ -70,7 +70,6 @@ footer .footer__ensemble {
   justify-content: flex-end;
 }
 footer .footer__ensemble .footer__icon {
-  margin-right: 31px;
   display: flex;
   gap: 15px;
   align-items: baseline;
@@ -595,12 +594,10 @@ footer .footer__ensemble {
 footer .footer__ensemble .footer__icon {
   display: flex;
   flex-direction: column;
-  gap: 0px;
 }
 footer .footer__ensemble .footer__lois {
   display: flex;
   flex-direction: column;
-  gap: 0px;
 }
 footer .footer__ensemble .footer__lois .footer__contact {
   margin-top: -10px;
@@ -620,7 +617,7 @@ footer .handshake {
   margin-right: 14px;
 }
 footer .footer__logo {
-  width: 139px;
+  width: 120px;
   height: 27px;
   filter: brightness(0) invert(1);
 }
@@ -667,20 +664,22 @@ footer .footer__logo {
     margin-top: 0;
   }
   footer {
-    display: flex;
-    flex-direction: row-reverse;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center;
   }
   .footer__ensemble {
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
+    flex-direction: row !important;
   }
   .footer__icon {
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right: 46px;
   }
   .footer__lois {
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
   }
 }
 
